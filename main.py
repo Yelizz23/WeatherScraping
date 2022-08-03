@@ -3,7 +3,7 @@ from requests_html import HTMLSession
 
 s = HTMLSession()
 
-city = ('london').capitalize()
+city = ('prague').capitalize()
 url = f'https://www.google.com/search?q=google+weather+{city}'
 
 
